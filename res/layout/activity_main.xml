@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a14"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button0"
+                style="@style/color_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttons"
+                android:text="علاقه مندی ها" />
+
+            <Button
+                android:id="@+id/button1"
+                style="@style/color_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttons"
+                android:text="جوک" />
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/color_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttons"
+                android:text="SmS" />
+
+            <Button
+                android:id="@+id/button3"
+                style="@style/color_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttons"
+                android:text="اعتراف می کنم" />
+
+            <Button
+                android:id="@+id/button4"
+                style="@style/color_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttons"
+                android:text="فک و فامیل" />
+
+            <Button
+                android:id="@+id/button5"
+                style="@style/color_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttons"
+                android:text="خاطرات خنده دار" />
+
+            <Button
+                android:id="@+id/button6"
+                style="@style/color_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttons"
+                android:text="مناسبت ها" />
+
+            <Button
+                android:id="@+id/button7"
+                style="@style/color_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttons"
+                android:text="مورد داشتیم" />
+
+            <Button
+                android:id="@+id/button8"
+                style="@style/color_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttons"
+                android:text="په نه په" />
+
+            <Button
+                android:id="@+id/button9"
+                style="@style/color_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttons"
+                android:text="داستان کوتاه" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

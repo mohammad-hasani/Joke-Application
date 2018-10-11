@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a15"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btnashegh"
+                style="@style/color_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttons"
+                android:text="اس ام اس عاشقانه" />
+
+            <Button
+                android:id="@+id/btnashti"
+                style="@style/color_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttons"
+                android:text="اس ام اس آشتی" />
+
+            <Button
+                android:id="@+id/btnemamzaman"
+                style="@style/color_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttons"
+                android:text="اس ام اس امام زمان" />
+
+            <Button
+                android:id="@+id/btnfalsafi"
+                style="@style/color_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttons"
+                android:text="اس ام اس فلسفی" />
+
+            <Button
+                android:id="@+id/btnfriendly"
+                style="@style/color_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttons"
+                android:text="اس ام اس دوستانه" />
+
+            <Button
+                android:id="@+id/btnfunny"
+                style="@style/color_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttons"
+                android:text="اس ام اس خنده دار" />
+
+            <Button
+                android:id="@+id/btngod"
+                style="@style/color_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttons"
+                android:text="اس ام اس خداوند" />
+
+            <Button
+                android:id="@+id/btnmazhabi"
+                style="@style/color_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttons"
+                android:text="اس ام اس مذهبی" />
+
+            <Button
+                android:id="@+id/btnnew"
+                style="@style/color_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttons"
+                android:text="اس ام اس جدید" />
+
+            <Button
+                android:id="@+id/btnshabbekheyr"
+                style="@style/color_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttons"
+                android:text="اس ام اس شب به خیر" />
+
+            <Button
+                android:id="@+id/btnshabearezooha"
+                style="@style/color_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttons"
+                android:text="اس ام اس شب ارزوها" />
+
+            <Button
+                android:id="@+id/btnsobhbekheyr"
+                style="@style/color_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttons"
+                android:text="اس ام اس صبح به خیر" />
+
+            <Button
+                android:id="@+id/btntabrikroozetavalod"
+                style="@style/color_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttons"
+                android:text="اس ام اس تبریک روز تولد" />
+
+            <Button
+                android:id="@+id/btntasliat"
+                style="@style/color_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttons"
+                android:text="اس ام اس تسلیت" />
+
+            <Button
+                android:id="@+id/btnziba"
+                style="@style/color_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttons"
+                android:text="اس ام اس زیبا" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
